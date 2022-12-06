@@ -2196,7 +2196,8 @@ ul.icons {
       color: #ce1b28; }
   #cta .inner {
     position: relative;
-    z-index: 3; }
+    z-index: 3;
+  }
   @media screen and (max-width: 980px) {
     #cta {
       background-attachment: scroll; } }
@@ -3022,7 +3023,7 @@ body {
 /* Create two unequal columns that floats next to each other */
 /* Left column */
 .leftcolumn {
-  float: center;
+  float: inherit;
   width: 75%;
 }
 
@@ -3031,11 +3032,14 @@ body {
   background-color: white;
   padding: 20px;
   margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 50px;
+  margin-right: 50px;
 }
 
 /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 800px) {
-  .leftcolumn, .rightcolumn {
+@media screen and (max-width: 5000px) {
+  .leftcolumn {
     width: 100%;
     padding: 0;
   }
