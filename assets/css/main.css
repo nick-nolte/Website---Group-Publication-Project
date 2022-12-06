@@ -2,11 +2,6 @@
 @import url("https://fonts.googleapis.com/css?family=Raleway:200,300,400,500,600");
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,600);
 
-/*
-	Industrious by TEMPLATED
-	templated.co @templatedco
-	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
-*/
 /* Basic */
 @-ms-viewport {
   width: device-width; }
@@ -3005,6 +3000,11 @@ body.is-menu-visible #menu {
   box-sizing: border-box;
 }
 
+.rowBlog{
+    margin: auto;
+    vertical-align: middle;
+}
+
 body {
   font-family: Arial;
   padding: 20px;
@@ -3015,50 +3015,21 @@ body {
 .header {
   padding: 30px;
   font-size: 40px;
-  text-align: center;
+  text-align: left;
   background: white;
 }
 
 /* Create two unequal columns that floats next to each other */
 /* Left column */
 .leftcolumn {
-  float: left;
+  float: center;
   width: 75%;
-}
-
-/* Right column */
-.rightcolumn {
-  float: left;
-  width: 25%;
-  padding-left: 20px;
-}
-
-/* Fake image */
-.fakeimg {
-  background-color: #aaa;
-  width: 100%;
-  padding: 20px;
 }
 
 /* Add a card effect for articles */
 .card {
   background-color: white;
   padding: 20px;
-  margin-top: 20px;
-}
-
-/* Clear floats after the columns */
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-/* Footer */
-.footer {
-  padding: 20px;
-  text-align: center;
-  background: #ddd;
   margin-top: 20px;
 }
 
